@@ -62,7 +62,7 @@ export default function AirdropForm() {
                 address: tsenderAddress as `0x${string}`,
                 functionName: "airdropERC20",
                 args: [
-                    tokenAddress as `0x${string}`,
+                    tokenAddress,
                     //Comma or newline separated 
                     recipients.split(/[\n,]+/).map(addr => addr.trim()).filter(addr => addr !== ''),
                     amounts.split(/[\n,]+/).map(amt => amt.trim()).filter(amt => amt !== ''),
@@ -76,7 +76,7 @@ export default function AirdropForm() {
                 address: tsenderAddress as `0x${string}`,
                 functionName: "airdropERC20",
                 args: [
-                    tokenAddress as `0x${string}`,
+                    tokenAddress,
                     //Comma or newline separated 
                     recipients.split(/[\n,]+/).map(addr => addr.trim()).filter(addr => addr !== ''),
                     amounts.split(/[\n,]+/).map(amt => amt.trim()).filter(amt => amt !== ''),
