@@ -1,7 +1,7 @@
-"use client"
+//"use client"
 
 import { getDefaultConfig } from "@rainbow-me/rainbowkit"
-import { get } from "http"
+//import { get } from "http"
 import { anvil, mainnet, zksync } from "wagmi/chains"
 
 export default getDefaultConfig({
