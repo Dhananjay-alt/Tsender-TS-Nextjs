@@ -1,5 +1,6 @@
 1. Create a basic react/next js application
-2. Implement this function
+2. Connect our wallet, with a nicer connect application
+3. Implement this function
 ```javascript
 function airdropERC20(
         address tokenAddress,
@@ -7,6 +8,12 @@ function airdropERC20(
         uint256[] calldata amounts,
         uint256 totalAmount
     )
-```
-3. Deploy to fleek
+``` 
+# Testing with synpress is really bad for now , lots  of bugs
+4. E2E testing
+    1. When we connect, we see the form 
+    2. When disconnected, wwe don't
+
+# Skip to this part
+5. Deploy to fleek
 
